@@ -4,13 +4,14 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using Priority_Queue;
+using UnityEngine.Serialization;
 
 public class AStarScript : MonoBehaviour {
 
 	public bool visualizeGridSpacesVisited = true;
 
 	public GridScript gridScript;
-	public HueristicScript hueristic;
+	public HeuristicScript heuristic;
 
 	protected int gridWidth;
 	protected int gridHeight;
@@ -37,7 +38,7 @@ public class AStarScript : MonoBehaviour {
 	}
 
 	protected virtual void InitAstar(){
-		InitAstar(new Path(hueristic.gameObject.name, gridScript));
+		InitAstar(new Path(heuristic.gameObject.name, gridScript));
 	}
 
 	protected virtual void InitAstar(Path path){
@@ -160,7 +161,7 @@ public class AStarScript : MonoBehaviour {
 				//set the cost to the current cost (update it if it's cheaper)
 				costSoFar[next] = newCost;
 				//HEURISTIC SEARCH
-				float hueristicValue = hueristic.Hueristic(x, y, start, goal, gridScript);
+				float hueristicValue = heuristic.Heuristic(x, y, start, goal, gridScript);
 				//ASTAR = DIJKSTRA'S ALGORITHM + HEURISTIC SEARCH
 				//get the priority of for checking this node based on the cost and the heuristic
 				//and insert it into the priority queue with that cost
