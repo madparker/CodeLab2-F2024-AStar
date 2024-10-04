@@ -223,9 +223,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c43b6c7670f164e64ba7ad4256ffa1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visualizeGridSpacesVisited: 1
+  visualizeGridSpacesVisited: 0
   gridScript: {fileID: 1792175001}
-  hueristic: {fileID: 348953}
+  heuristic: {fileID: 348953}
 --- !u!114 &348953
 MonoBehaviour:
   m_ObjectHideFlags: 0
