@@ -233,7 +233,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1792175002}
-  - component: {fileID: 1792175001}
+  - component: {fileID: 1792175003}
   m_Layer: 0
   m_Name: Grid
   m_TagString: Untagged
@@ -241,35 +241,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1792175001
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1792175000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48fb1ee5cc40f4a5287bfe4a72f29e9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gridWidth: 0
-  gridHeight: 0
-  spacing: 6
-  mats:
-  - {fileID: 2100000, guid: 991fd2620a7dd4f75bf7fc92e51d2ec9, type: 2}
-  - {fileID: 2100000, guid: f8592f830cb1d45f3be75c344c7882a0, type: 2}
-  - {fileID: 2100000, guid: 2a4020c9625aa43929473720fb82aa7a, type: 2}
-  - {fileID: 2100000, guid: 5d06d31200aec4a918715fff1743e4bd, type: 2}
-  costs:
-  - 0.245
-  - 3
-  - 10
-  - 20
-  start: {x: 3, y: 14, z: 0}
-  goal: {x: 13, y: 2, z: 0}
-  startSprite: {fileID: 2036897189}
-  goalSprite: {fileID: 1954945764}
 --- !u!4 &1792175002
 Transform:
   m_ObjectHideFlags: 0
@@ -285,6 +256,39 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1792175003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1792175000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 448161b4baf4b41418bf4617f4ea71be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridWidth: 0
+  gridHeight: 0
+  spacing: 6
+  mats:
+  - {fileID: 2100000, guid: 991fd2620a7dd4f75bf7fc92e51d2ec9, type: 2}
+  - {fileID: 2100000, guid: f8592f830cb1d45f3be75c344c7882a0, type: 2}
+  - {fileID: 2100000, guid: 2a4020c9625aa43929473720fb82aa7a, type: 2}
+  - {fileID: 2100000, guid: 5d06d31200aec4a918715fff1743e4bd, type: 2}
+  - {fileID: 2100000, guid: d17f2d4572f1f44a1a5975f4c51b313f, type: 2}
+  - {fileID: 2100000, guid: 1d86dc5ea3cad479aa762de89673bfc6, type: 2}
+  costs:
+  - 0.245
+  - 3
+  - 10
+  - 20
+  - 0.05
+  - 100
+  start: {x: 15, y: 2, z: 0}
+  goal: {x: 15, y: 14, z: 0}
+  startSprite: {fileID: 2036897189}
+  goalSprite: {fileID: 1954945764}
 --- !u!1 &1954945764
 GameObject:
   m_ObjectHideFlags: 0
@@ -453,7 +457,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &4228919083709779233
+--- !u!1001 &8677917089929859105
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -461,71 +465,71 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 30086407414201092, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
+    - target: {fileID: 2295601568201976131, guid: 02cd243d0a1734d058a78ce1a34df2c9,
+        type: 3}
+      propertyPath: m_Name
+      value: SpyrisPrince
+      objectReference: {fileID: 0}
+    - target: {fileID: 4312656519720346499, guid: 02cd243d0a1734d058a78ce1a34df2c9,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 30086407414201092, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
+    - target: {fileID: 4312656519720346499, guid: 02cd243d0a1734d058a78ce1a34df2c9,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 30086407414201092, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
+    - target: {fileID: 4312656519720346499, guid: 02cd243d0a1734d058a78ce1a34df2c9,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 30086407414201092, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
+    - target: {fileID: 4312656519720346499, guid: 02cd243d0a1734d058a78ce1a34df2c9,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 30086407414201092, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
+    - target: {fileID: 4312656519720346499, guid: 02cd243d0a1734d058a78ce1a34df2c9,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 30086407414201092, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
+    - target: {fileID: 4312656519720346499, guid: 02cd243d0a1734d058a78ce1a34df2c9,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 30086407414201092, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
+    - target: {fileID: 4312656519720346499, guid: 02cd243d0a1734d058a78ce1a34df2c9,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 30086407414201092, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
+    - target: {fileID: 4312656519720346499, guid: 02cd243d0a1734d058a78ce1a34df2c9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 30086407414201092, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
+    - target: {fileID: 4312656519720346499, guid: 02cd243d0a1734d058a78ce1a34df2c9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 30086407414201092, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
+    - target: {fileID: 4312656519720346499, guid: 02cd243d0a1734d058a78ce1a34df2c9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4187659431049001905, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
-        type: 3}
-      propertyPath: m_Name
-      value: CunxiPrincess
-      objectReference: {fileID: 0}
-    - target: {fileID: 5445108132416249618, guid: ab1e24a3c91f6ed46a4c649e2d8ac967,
+    - target: {fileID: 5661509797548176192, guid: 02cd243d0a1734d058a78ce1a34df2c9,
         type: 3}
       propertyPath: gridScript
       value: 
-      objectReference: {fileID: 1792175001}
+      objectReference: {fileID: 1792175003}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ab1e24a3c91f6ed46a4c649e2d8ac967, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 02cd243d0a1734d058a78ce1a34df2c9, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -533,5 +537,5 @@ SceneRoots:
   - {fileID: 1058467919}
   - {fileID: 2036897191}
   - {fileID: 1792175002}
-  - {fileID: 4228919083709779233}
+  - {fileID: 8677917089929859105}
   - {fileID: 1954945766}
