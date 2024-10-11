@@ -33,8 +33,7 @@ public class FixedHeuristic : HeuristicScript
         // the heuristic value is increased by the cost factor, higher movement cost areas will result in a higher heuristic value, making them less favorable
 
         // use Mathf.Max to ensure that the movement cost used is not lower than the averageMovementCost
-        // to prevent underestimating the cost of movement: the current movement cost could be very low, but there it is actually very high-cost
-        // another benefit is that it prevent an overly optimistic value when the cost is too low
+        // to prevent underestimating the cost of movement: the current movement cost could be very low, but it is actually very high-cost
         float heuristicValue = manhattanDistance * Mathf.Max(averageMovementCost, currentMovementCost) * costFactor;
 
         // return the final heuristicValue
