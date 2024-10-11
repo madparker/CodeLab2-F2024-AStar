@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8304901345527855113}
   - component: {fileID: 2126259678742191100}
   m_Layer: 0
-  m_Name: WaterPrincess
+  m_Name: AquaPrincess_Weikai
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
