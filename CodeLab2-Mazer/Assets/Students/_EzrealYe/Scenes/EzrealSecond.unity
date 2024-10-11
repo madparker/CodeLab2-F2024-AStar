@@ -362,7 +362,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750e1e5212f7dce42a50ed9ecdbee2cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  averageMovementCost: 1
+  averageMovementCost: 3
+  minCost: 0.245
+  maxCost: 20
 --- !u!1 &1058467914
 GameObject:
   m_ObjectHideFlags: 0
