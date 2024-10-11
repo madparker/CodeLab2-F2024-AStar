@@ -426,7 +426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualizeGridSpacesVisited: 0
   gridScript: {fileID: 205887775}
-  heuristic: {fileID: 0}
+  heuristic: {fileID: 1494923319}
 --- !u!212 &1494923317
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -506,6 +506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c323224929f08114d85e2f667a53830a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weight: 1
 --- !u!1 &1684681335
 GameObject:
   m_ObjectHideFlags: 0
