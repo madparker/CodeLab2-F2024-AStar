@@ -23,7 +23,7 @@ namespace Students._NengkuanChen.Scripts
             switch (heuristicType)
             {
                 case HeuristicType.Manhattan:
-                    return Mathf.Abs(x - goal.x) + Mathf.Abs(y - goal.y) * weight;
+                    return (Mathf.Abs(x - goal.x) + Mathf.Abs(y - goal.y)) * weight;
                 case HeuristicType.Euclidean:
                     return Mathf.Sqrt(Mathf.Pow(x - goal.x, 2) + Mathf.Pow(y - goal.y, 2)) * weight;
                 case HeuristicType.Chebyshev:
