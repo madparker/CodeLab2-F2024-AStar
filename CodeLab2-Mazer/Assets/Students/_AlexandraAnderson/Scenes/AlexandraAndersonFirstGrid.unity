@@ -278,9 +278,9 @@ GameObject:
   - component: {fileID: 1494923318}
   - component: {fileID: 1494923317}
   - component: {fileID: 1494923316}
-  - component: {fileID: 1494923315}
   - component: {fileID: 1494923314}
   - component: {fileID: 1494923313}
+  - component: {fileID: 1494923319}
   m_Layer: 0
   m_Name: Princess
   m_TagString: Untagged
@@ -412,19 +412,6 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
---- !u!114 &1494923315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1494923312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d660c646537a084eaabff23c29c16cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weight: 1
 --- !u!114 &1494923316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,7 +426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualizeGridSpacesVisited: 0
   gridScript: {fileID: 205887775}
-  heuristic: {fileID: 1494923315}
+  heuristic: {fileID: 0}
 --- !u!212 &1494923317
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -507,6 +494,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1494923319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494923312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c323224929f08114d85e2f667a53830a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1684681335
 GameObject:
   m_ObjectHideFlags: 0
