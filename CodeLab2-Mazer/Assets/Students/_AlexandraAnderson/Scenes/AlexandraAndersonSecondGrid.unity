@@ -217,7 +217,6 @@ GameObject:
   - component: {fileID: 194895330}
   - component: {fileID: 194895329}
   - component: {fileID: 194895328}
-  - component: {fileID: 194895327}
   - component: {fileID: 194895326}
   - component: {fileID: 194895325}
   m_Layer: 0
@@ -351,19 +350,6 @@ LineRenderer:
   m_UseWorldSpace: 1
   m_Loop: 0
   m_ApplyActiveColorSpace: 0
---- !u!114 &194895327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194895324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d660c646537a084eaabff23c29c16cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weight: 1
 --- !u!114 &194895328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -378,7 +364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   visualizeGridSpacesVisited: 1
   gridScript: {fileID: 1162279110}
-  heuristic: {fileID: 194895327}
+  heuristic: {fileID: 0}
 --- !u!212 &194895329
 SpriteRenderer:
   m_ObjectHideFlags: 0
