@@ -133,12 +133,12 @@ GameObject:
   m_Component:
   - component: {fileID: 348951}
   - component: {fileID: 348950}
-  - component: {fileID: 348952}
-  - component: {fileID: 348953}
   - component: {fileID: 348954}
   - component: {fileID: 348955}
+  - component: {fileID: 348956}
+  - component: {fileID: 348957}
   m_Layer: 0
-  m_Name: Princess
+  m_Name: PrincessForGrid2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -211,33 +211,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &348952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c43b6c7670f164e64ba7ad4256ffa1ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  visualizeGridSpacesVisited: 1
-  gridScript: {fileID: 1792175003}
-  heuristic: {fileID: 348953}
---- !u!114 &348953
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 348949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e5a013c12de241e69fdc04f848c2d46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!120 &348954
 LineRenderer:
   serializedVersion: 2
@@ -361,7 +334,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 842d5b1fe10374f06a734a6a8f1c5569, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  astar: {fileID: 348952}
+  astar: {fileID: 348957}
+--- !u!114 &348956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0ad9ca02f8bba4eba0dd2116f6adcc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weight: 0
+--- !u!114 &348957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c43b6c7670f164e64ba7ad4256ffa1ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visualizeGridSpacesVisited: 1
+  gridScript: {fileID: 1792175003}
+  heuristic: {fileID: 348956}
 --- !u!1 &1058467914
 GameObject:
   m_ObjectHideFlags: 0
