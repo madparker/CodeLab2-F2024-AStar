@@ -32,7 +32,10 @@ public class AStarScript : MonoBehaviour {
 	protected Vector3 current;
 
 	// Use this for initialization
-	protected virtual void Start () {
+	protected virtual void Start ()
+	{
+		gridScript = GameObject.Find("Grid").GetComponent<GridScript>();
+		
 		InitAstar();
 		
 	}
