@@ -134,11 +134,11 @@ GameObject:
   - component: {fileID: 348951}
   - component: {fileID: 348950}
   - component: {fileID: 348952}
+  - component: {fileID: 348956}
   - component: {fileID: 348954}
   - component: {fileID: 348955}
-  - component: {fileID: 348956}
   m_Layer: 0
-  m_Name: PrincessForGrid1
+  m_Name: Princess
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -359,10 +359,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 348949}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da0ad9ca02f8bba4eba0dd2116f6adcc, type: 3}
+  m_Script: {fileID: 11500000, guid: 32d97a8d137d93342bfbfac108db2bfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 0
 --- !u!1 &1058467914
 GameObject:
   m_ObjectHideFlags: 0
