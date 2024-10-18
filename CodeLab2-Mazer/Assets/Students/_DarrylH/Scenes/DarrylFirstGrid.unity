@@ -123,18 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &9283723 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1491488865391281694, guid: 821b2be39467bd045a94c64737873fd9,
-    type: 3}
-  m_PrefabInstance: {fileID: 611950773}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d831ecb29fdc36a40be46b86334c2af0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &52312282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -271,162 +259,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c6985371b4c8438a99514077e09049f, type: 3}
---- !u!1001 &344718651
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4328647607460629658, guid: 9fde300c551363c429e902068590cc53,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328647607460629658, guid: 9fde300c551363c429e902068590cc53,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328647607460629658, guid: 9fde300c551363c429e902068590cc53,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328647607460629658, guid: 9fde300c551363c429e902068590cc53,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328647607460629658, guid: 9fde300c551363c429e902068590cc53,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328647607460629658, guid: 9fde300c551363c429e902068590cc53,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328647607460629658, guid: 9fde300c551363c429e902068590cc53,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328647607460629658, guid: 9fde300c551363c429e902068590cc53,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328647607460629658, guid: 9fde300c551363c429e902068590cc53,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4328647607460629658, guid: 9fde300c551363c429e902068590cc53,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6066702329743491556, guid: 9fde300c551363c429e902068590cc53,
-        type: 3}
-      propertyPath: m_Name
-      value: AlexandraAndersonPrincessPrefab
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 9fde300c551363c429e902068590cc53, type: 3}
---- !u!1001 &611950773
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3592662372054033621, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7959545551804687898, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: m_Name
-      value: darrylsPrincess
-      objectReference: {fileID: 0}
-    - target: {fileID: 8285810227625183686, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: heuristic
-      value: 
-      objectReference: {fileID: 9283723}
-    - target: {fileID: 8285810227625183686, guid: 821b2be39467bd045a94c64737873fd9,
-        type: 3}
-      propertyPath: gridScript
-      value: 
-      objectReference: {fileID: 1792175001}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 821b2be39467bd045a94c64737873fd9, type: 3}
 --- !u!1001 &993101480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1072,6 +904,74 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64c7b6543ffaf4c40a19ba58a3c5d003, type: 3}
+--- !u!1001 &1732296519
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4103152683020859113, guid: 34bb858cdf54172478190b4d80031bcf,
+        type: 3}
+      propertyPath: m_Name
+      value: AlexandraAndersonPrincess Prefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133245166917663659, guid: 34bb858cdf54172478190b4d80031bcf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133245166917663659, guid: 34bb858cdf54172478190b4d80031bcf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133245166917663659, guid: 34bb858cdf54172478190b4d80031bcf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133245166917663659, guid: 34bb858cdf54172478190b4d80031bcf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133245166917663659, guid: 34bb858cdf54172478190b4d80031bcf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133245166917663659, guid: 34bb858cdf54172478190b4d80031bcf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133245166917663659, guid: 34bb858cdf54172478190b4d80031bcf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133245166917663659, guid: 34bb858cdf54172478190b4d80031bcf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133245166917663659, guid: 34bb858cdf54172478190b4d80031bcf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133245166917663659, guid: 34bb858cdf54172478190b4d80031bcf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 34bb858cdf54172478190b4d80031bcf, type: 3}
 --- !u!1 &1792175000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,6 +1298,7 @@ SceneRoots:
   - {fileID: 1792175002}
   - {fileID: 4571514836184182276}
   - {fileID: 1954945766}
+  - {fileID: 1732296519}
   - {fileID: 1725117655}
   - {fileID: 1318632297}
   - {fileID: 1018334413}
@@ -1408,5 +1309,3 @@ SceneRoots:
   - {fileID: 993101480}
   - {fileID: 1698100911}
   - {fileID: 1674478550}
-  - {fileID: 344718651}
-  - {fileID: 611950773}
